@@ -5,7 +5,7 @@ A novel asynchronous event denoising neural network directly consumes the correl
 
 <img src="https://github.com/Fanghuachen/AEDNet/blob/main/pic/gif%20.gif" width="400" height="300"> <img src="https://github.com/Fanghuachen/AEDNet/blob/main/pic/gif1.gif" width="400" height="300"> 
 
-**INSTALLATION**
+**Installation**
 
 This code was tested on an Ubuntu 20.04.1 system (i9-10920X CPU, 128GB RAM, and GeForce RTX 3090Ti GPU) running Python 3.7, Pytorch 1.12 and CUDAToolkit 11.3.1.
 ```
