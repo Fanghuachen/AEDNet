@@ -3,5 +3,6 @@ Source code for [AEDNet paper](https://dl.acm.org/doi/10.1145/3503161.3548048) f
 
 A novel asynchronous event denoising neural network directly consumes the correlation of the irregular signal in spatiotemporal range without destroying its original structural property.
 
-![original event stream](https://github.com/Fanghuachen/AEDNet/blob/main/pic/gif%20.gif width="400" height="400") ![denoised event stream](https://github.com/Fanghuachen/AEDNet/blob/main/pic/gif1.gif width="400" height="400")
+![original event stream](https://github.com/Fanghuachen/AEDNet/blob/main/pic/gif%20.gif) ![denoised event stream](https://github.com/Fanghuachen/AEDNet/blob/main/pic/gif1.gif)
+<img src="https://github.com/Fanghuachen/AEDNet/blob/main/pic/gif%20.gif" width="200" height="200"> <img src="https://github.com/Fanghuachen/AEDNet/blob/main/pic/gif1.gif" width="200" height="200"> 
 
