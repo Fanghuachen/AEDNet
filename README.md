@@ -11,5 +11,7 @@ This code was tested on an Ubuntu 20.04.1 system (i9-10920X CPU, 128GB RAM, and 
 ```
 conda create --name aednet python=3.7
 conda activate aednet
-pip install -r AEDNet/requirements.txt
+pip install numpy==1.21.6
+pip install matplotlib=3.5.2
+conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
 ```
