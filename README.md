@@ -11,5 +11,5 @@ This code was tested on an Ubuntu 20.04.1 system (i9-10920X CPU, 128GB RAM, and 
 ```
 conda create --name aednet python=3.7
 conda activate aednet
-pip install -r AEDNET/requirements.txt
+pip install -r AEDNet/requirements.txt
 ```
