@@ -5,6 +5,17 @@ A novel asynchronous event denoising neural network directly consumes the correl
 
 <img src="https://github.com/Fanghuachen/AEDNet/blob/AEDNet/pic/gif%20.gif" width="400" height="300"> <img src="https://github.com/Fanghuachen/AEDNet/blob/main/pic/gif1.gif" width="400" height="300"> 
 
+If you find this work useful in your academic reaserch, please cite the following work:
+```
+@inproceedings{fang2022aednet,
+  title={AEDNet: Asynchronous Event Denoising with Spatial-Temporal Correlation among Irregular Data},
+  author={Fang, Huachen and Wu, Jinjian and Li, Leida and Hou, Junhui and Dong, Weisheng and Shi, Guangming},
+  booktitle={Proceedings of the 30th ACM International Conference on Multimedia},
+  pages={1427--1435},
+  year={2022}
+}
+```
+
 If there is any suggestion or questions, feel free to fire an issue to let us know. :)
 
 # Installation
