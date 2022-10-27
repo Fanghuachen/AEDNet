@@ -24,7 +24,6 @@ def parse_arguments():
     parser.add_argument('--model', type=str, default='AEDNet', help='names of trained models, can evaluate multiple models')
     parser.add_argument('--modelpostfix', type=str, default='_model.pth', help='model file postfix')
     parser.add_argument('--parmpostfix', type=str, default='_params.pth', help='parameter file postfix')
-    parser.add_argument('--n_neighbours', type=int, default=200, help='nearest neighbour used for inflation step')
     parser.add_argument('--sampling', type=str, default='full', help='sampling strategy, any of:\n'
                         'full: evaluate all points in the dataset\n'
                         'sequential_shapes_random_patches: pick n random points from each shape as patch centers, shape order is not randomized')
