@@ -5,7 +5,9 @@ A novel asynchronous event denoising neural network directly consumes the correl
 
 <img src="https://github.com/Fanghuachen/AEDNet/blob/AEDNet/pic/gif%20.gif" width="400" height="300"> <img src="https://github.com/Fanghuachen/AEDNet/blob/main/pic/gif1.gif" width="400" height="300"> 
 
-**Installation**
+If there is any suggestion or questions, feel free to fire an issue to let us know. :)
+
+# Installation
 
 This code was tested on an Ubuntu 20.04.1 system (i9-10920X CPU, 128GB RAM, and GeForce RTX 3090Ti GPU) running Python 3.7, Pytorch 1.12 and CUDAToolkit 11.3.1.
 ```
@@ -17,20 +19,20 @@ pip install tensorboardX
 conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
 ```
 
-**Train the model**
+# Train the model
 We have released the trained model parameters in Releases. If you want to train your own model, you should first put your data in "data/AEDNetDataset_BA" and list the name of data in "training_file_name.txt". After that, you can train your model via:
 ```
 python train_net.py --trainset training_file_name.txt --testset test_file_name.txt --nepoch 2000 --batchSize 8
 ```
 
-**Test the model**
+# Test the model
 Put the model parameters in Releases to "models/BA_noise_removal_model" and test it via:
 ```
 python test_net.py --shapename MAH00444_50{i} --x_frame 1280 --y_frame 720
 ```
 
-**DVSCLEAN Dataset**
+# DVSCLEAN Dataset
 To download the dataset use:
 
-If there is any suggestion or questions, feel free to fire an issue to let us know. :)
+
 
