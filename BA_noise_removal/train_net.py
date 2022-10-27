@@ -41,7 +41,7 @@ def parse_arguments():
                         help='refine model at this path')
 
     # training parameters
-    parser.add_argument('--nepoch', type=int, default=2001,
+    parser.add_argument('--nepoch', type=int, default=2000,
                         help='number of epochs to train for')
     parser.add_argument('--batchSize', type=int,
                         default=8, help='input batch size')
