@@ -16,3 +16,21 @@ pip install matplotlib=3.5.2
 pip install tensorboardX
 conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
 ```
+
+**Train the model**
+We have released the trained model parameters in Releases. If you want to train your own model, you should first put your data in "data/AEDNetDataset_BA" and list the name of data in "training_file_name.txt". After that, you can train your model via:
+```
+python train_net.py --trainset training_file_name.txt --testset test_file_name.txt --nepoch 2000 --batchSize 8
+```
+
+**Test the model**
+Put the model parameters in Releases to "models/BA_noise_removal_model" and test it via:
+```
+python test_net.py --shapename MAH00444_50{i} --x_frame 1280 --y_frame 720
+```
+
+**DVSCLEAN Dataset**
+To download the dataset use:
+
+If there is any suggestion or questions, feel free to fire an issue to let us know. :)
+
