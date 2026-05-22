@@ -41,7 +41,7 @@ def parse_arguments():
                         help='refine model at this path')
 
     # training parameters
-    parser.add_argument('--nepoch', type=int, default=2000,
+    parser.add_argument('--nepoch', type=int, default=1000,
                         help='number of epochs to train for')
     parser.add_argument('--batchSize', type=int,
                         default=8, help='input batch size')
@@ -195,7 +195,7 @@ def train_pcpnet(opt):
     aednet.cuda()
     optimizer = optim.SGD(aednet.parameters(), lr=opt.lr,
                         momentum=opt.momentum)
-    scheduler = lr_scheduler.StepLR(optimizer, step_size=50*3200, gamma=0.1)
+    scheduler = lr_scheduler.StepLR(optimizer, step_size=100*3200, gamma=0.5)
     start_epoch = -1
     if os.path.exists(model_filename):
         aednet.load_state_dict(torch.load(model_filename))
